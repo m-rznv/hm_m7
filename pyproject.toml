@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hm-m7"
+version = "0.1.0"
+description = ""
+authors = ["mx_so <108818234+m-rznv@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hm_m7"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.5.post1"
+alembic = "^1.10.2"
+psycopg2-binary = "^2.9.5"
+faker = "^17.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
